@@ -1,0 +1,12 @@
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\services\ProductServiceImp.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\bootstrapping\ProductBootstrapper.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\security\JwtUtils.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\model\Product.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\security\JwtAuthenticationEntryPoint.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\ProductApiApplication.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\controllers\ProductsController.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\model\ProductDTO.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\repository\ProductRepository.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\services\ProductService.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\security\WebSecurityConfig.java
+C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\Trabalho1\ProductAPI2\ProductAPI2\src\main\java\com\Product\ProductAPI\security\JwtRequestFilter.java

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.Product.ProductAPI.ProductApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.797 s - in com.Product.ProductAPI.ProductApiApplicationTests

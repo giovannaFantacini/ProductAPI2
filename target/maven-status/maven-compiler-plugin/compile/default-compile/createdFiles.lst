@@ -1,0 +1,12 @@
+com\Product\ProductAPI\bootstrapping\ProductBootstrapper.class
+com\Product\ProductAPI\security\JwtAuthenticationEntryPoint.class
+com\Product\ProductAPI\controllers\ProductsController.class
+com\Product\ProductAPI\repository\ProductRepository.class
+com\Product\ProductAPI\model\Product.class
+com\Product\ProductAPI\model\ProductDTO.class
+com\Product\ProductAPI\ProductApiApplication.class
+com\Product\ProductAPI\services\ProductService.class
+com\Product\ProductAPI\security\JwtUtils.class
+com\Product\ProductAPI\security\JwtRequestFilter.class
+com\Product\ProductAPI\services\ProductServiceImp.class
+com\Product\ProductAPI\security\WebSecurityConfig.class

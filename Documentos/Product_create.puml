@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autoactivate on
+autonumber
+
+actor "User" as User
+participant ":ProductAPI" as pro1
+participant ":Product" as pro2
+
+activate User
+
+User -> pro1: POST/products/create
+pro1 -> pro2: POST/8087/products/create
+pro2 --> pro1: Product
+pro1 --> User: Product
+@enduml
