@@ -52,8 +52,8 @@ public class ProductsController {
 
     @PostMapping(value = "/create")
     @ResponseStatus(HttpStatus.CREATED)
-      public Product createProduct(@RequestBody final Product pt){
-      return this.repository.save(pt);
+      public Product createProduct(@RequestBody final Product pt) throws IOException, InterruptedException {
+      return this.service.create(pt);
     }
 
     @GetMapping(value = "/{sku}/barcode128", produces = MediaType.IMAGE_PNG_VALUE)

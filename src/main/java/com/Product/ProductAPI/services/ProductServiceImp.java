@@ -70,8 +70,15 @@ public class ProductServiceImp implements ProductService{
 
 
     @Override
-    public Product create(Product pt) {
-        return repository.save(pt);
+    public Product create(Product pt) throws IOException, InterruptedException {
+        Product existProduct = repository.getBySku(pt.getSku());
+        if(existProduct == null){
+            existProduct = product2Repository.getProduct(pt.getSku());
+            if(existProduct == null){
+                return repository.save(pt);
+            }
+        }
+        throw new ResponseStatusException(HttpStatus.CONFLICT,"Product already exist");
     }
 
     @Override
