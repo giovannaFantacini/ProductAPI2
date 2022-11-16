@@ -2,6 +2,7 @@ package com.Product.ProductAPI.services;
 
 import com.Product.ProductAPI.model.Product;
 import com.Product.ProductAPI.model.ProductDTO;
+import com.Product.ProductAPI.repository.Product2Repository;
 import com.Product.ProductAPI.repository.ProductRepository;
 import org.krysalis.barcode4j.impl.code128.Code128Bean;
 import org.krysalis.barcode4j.output.bitmap.BitmapCanvasProvider;
@@ -22,6 +23,9 @@ public class ProductServiceImp implements ProductService{
     @Autowired
     private ProductRepository repository;
 
+    @Autowired
+    private Product2Repository product2Repository;
+
 
     @Override
     public List<ProductDTO> getCatalog() {
@@ -31,11 +35,30 @@ public class ProductServiceImp implements ProductService{
     @Override
     public Object getBySku(final String sku) throws IOException, InterruptedException {
         Optional<Product> productOptional = repository.findById(sku);
+        boolean isPresent = productOptional.isPresent();
+        if(!isPresent){
+            return product2Repository.getProduct(sku);
+        }
         return productOptional.get();
     }
 
     @Override
-    public List<Product> getBySkuOrDesignation(String skuOrDesignation) {
+    public Object internalGetBySku(final String sku){
+        Optional<Product> productOptional = repository.findById(sku);
+        return productOptional.get();
+    }
+
+    @Override
+    public List<Product> getBySkuOrDesignation(String skuOrDesignation) throws IOException, InterruptedException {
+        List<Product> products = repository.getBySkuOrDesignation(skuOrDesignation);
+        if(products.isEmpty()){
+            return product2Repository.getProductBySkuOrDesignation(skuOrDesignation);
+        }else
+            return products;
+    }
+
+    @Override
+    public List<Product> internalGetBySkuOrDesignation(String skuOrDesignation) {
         List <Product> product = repository.getBySkuOrDesignation(skuOrDesignation);
 
         if (product.isEmpty()){
@@ -45,8 +68,9 @@ public class ProductServiceImp implements ProductService{
         }
     }
 
+
     @Override
-    public Product create(Product pt) throws IOException {
+    public Product create(Product pt) {
         return repository.save(pt);
     }
 

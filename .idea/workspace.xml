@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4f7c34-c9cb-4a88-900c-c78921d58629" name="Changes" comment="ProductAPI2">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2022_21_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2022_21_55__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/repository/Product2Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2022_21_55_[Changes]/ProductAPI-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2022_21_55_[Changes]/product.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2022_21_55_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2022_21_55__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/product.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/product.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/product.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/product.trace.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/controllers/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/controllers/ProductsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/model/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/model/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/services/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/services/ProductServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Product/ProductAPI/services/ProductServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Product/ProductAPI/controllers/ProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Product/ProductAPI/controllers/ProductsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Product/ProductAPI/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Product/ProductAPI/services/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Product/ProductAPI/services/ProductServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Product/ProductAPI/services/ProductServiceImp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,9 +119,9 @@
       <recent name="C:\Users\Giova\OneDrive\Documentos\ISEP\SIDIS\ProductAPI" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Product.ProductAPI.repository" />
       <recent name="com.Product.ProductAPI.security" />
       <recent name="com.Product.ProductAPI.services" />
-      <recent name="com.Product.ProductAPI.repository" />
       <recent name="com.Product.ProductAPI.model" />
       <recent name="com.Product.ProductAPI.controllers" />
     </key>
@@ -196,7 +197,12 @@
       <workItem from="1667257005432" duration="1030000" />
       <workItem from="1667301052262" duration="3821000" />
       <workItem from="1667514319614" duration="1204000" />
-      <workItem from="1667593258058" duration="1839000" />
+      <workItem from="1667593258058" duration="3039000" />
+      <workItem from="1667985278779" duration="2176000" />
+      <workItem from="1668185005689" duration="767000" />
+      <workItem from="1668529104470" duration="893000" />
+      <workItem from="1668531400139" duration="3306000" />
+      <workItem from="1668586380923" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="Implementation of functions for previous app">
       <created>1666778690880</created>

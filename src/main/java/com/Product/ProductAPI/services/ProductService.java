@@ -12,7 +12,11 @@ public interface ProductService {
 
     Object getBySku(String sku) throws IOException, InterruptedException;
 
-    List<Product> getBySkuOrDesignation (String skuOrDesignation);
+    Object internalGetBySku (String sku);
+
+    List<Product> getBySkuOrDesignation (String skuOrDesignation) throws IOException, InterruptedException;
+
+    List<Product> internalGetBySkuOrDesignation (String skuOrDesignation);
 
     List<ProductDTO> getCatalog();
     Product create(Product pt) throws IOException;
